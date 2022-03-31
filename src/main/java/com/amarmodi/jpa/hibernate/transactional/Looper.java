@@ -7,4 +7,20 @@ public class Looper {
             System.out.println(i);
         }
     }
+
+    public static void ford(String[] args){
+        int arr[] = {1,2,3,4,5,6,8};
+        for(int num: arr) {
+            System.out.println(num);
+        }
+    }
+
+
+    public static void whiled(String[] args) {
+        int i=1;
+        while(i<=10){
+            System.out.println(i);
+            i++;
+        }
+    }
 }
